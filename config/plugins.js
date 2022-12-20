@@ -16,23 +16,23 @@ module.exports = ({ env }) => ({
     },
     upload: {
       config: {
-        provider: 'aws-s3',
+        provider: "aws-s3",
         providerOptions: {
-          accessKeyId: env('AWS_ACCESS_KEY_ID'),
-          secretAccessKey: env('AWS_ACCESS_SECRET'),
-          region: env('AWS_REGION'),
+          accessKeyId: env("DO_SPACE_ACCESS_KEY"),
+          secretAccessKey: env("DO_SPACE_SECRET_KEY"),
+          endpoint: env("DO_SPACE_ENDPOINT"),
           params: {
-            Bucket: env('AWS_BUCKET')
+            Bucket: env("DO_SPACE_BUCKET"),
           },
-          sizeLimit: 250 * 1024 * 1024 // 256mb in bytes
         },
         actionOptions: {
           upload: {},
           uploadStream: {},
-          delete: {}
-        }
-      }
+          delete: {},
+        },
+      },
     },
+  
     email: {
       config: {
         provider: 'nodemailer',
