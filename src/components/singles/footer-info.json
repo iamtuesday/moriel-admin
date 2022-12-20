@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_singles_footer_infos",
+  "info": {
+    "displayName": "FooterInfo"
+  },
+  "options": {},
+  "attributes": {
+    "lbl_address": {
+      "type": "string"
+    },
+    "lbl_email": {
+      "type": "string"
+    },
+    "lbl_phone": {
+      "type": "string"
+    },
+    "lbl_follow": {
+      "type": "string"
+    },
+    "lbl_copyright": {
+      "type": "string"
+    }
+  }
+}

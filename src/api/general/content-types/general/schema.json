@@ -1,0 +1,90 @@
+{
+  "kind": "singleType",
+  "collectionName": "generals",
+  "info": {
+    "singularName": "general",
+    "pluralName": "generals",
+    "displayName": "General",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "email": {
+      "type": "email"
+    },
+    "address": {
+      "type": "string"
+    },
+    "url_map": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "facebook_id": {
+      "type": "string"
+    },
+    "pixel_facebook": {
+      "type": "string"
+    },
+    "tag_manager": {
+      "type": "string"
+    },
+    "cellphone": {
+      "type": "string"
+    },
+    "message_getbuton": {
+      "type": "string"
+    },
+    "menu": {
+      "displayName": "Menu",
+      "type": "component",
+      "repeatable": true,
+      "component": "singles.menu"
+    },
+    "socials_networks": {
+      "displayName": "SocialNetworks",
+      "type": "component",
+      "repeatable": true,
+      "component": "singles.social-networks"
+    },
+    "lbl_solar_energy": {
+      "type": "string"
+    },
+    "lbl_contact_us": {
+      "type": "string"
+    },
+    "lbl_see_service": {
+      "type": "string"
+    },
+    "lbl_read_more": {
+      "type": "string"
+    },
+    "schedule": {
+      "type": "string"
+    },
+    "lbl_get_estimate": {
+      "type": "string"
+    },
+    "footer_titles": {
+      "displayName": "FooterInfo",
+      "type": "component",
+      "repeatable": false,
+      "component": "singles.footer-info"
+    }
+  }
+}

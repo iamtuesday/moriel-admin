@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_singles_submit_forms",
+  "info": {
+    "displayName": "SubmitForm"
+  },
+  "options": {},
+  "attributes": {
+    "url": {
+      "type": "string"
+    },
+    "label": {
+      "type": "string"
+    }
+  }
+}

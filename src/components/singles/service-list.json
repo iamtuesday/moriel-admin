@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_singles_service_lists",
+  "info": {
+    "displayName": "ServiceList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "content": {
+      "type": "text"
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "singles.careers-list"
+    },
+    "slug": {
+      "type": "string"
+    }
+  }
+}
